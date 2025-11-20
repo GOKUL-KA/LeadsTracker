@@ -6,5 +6,14 @@
     "default_popup": "index.html",
     "default_icon": "icons.svg"
   },
-  "permissions": ["tabs"]
+  "permissions": ["tabs"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "myleads@myleads.gokul", 
+      "data_collection_permissions" : {
+        "required": ["browsingActivity"]
+      }, 
+      "strict_min_version": "128.0"
+    }
+  }
 }
